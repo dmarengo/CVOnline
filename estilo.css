@@ -1,82 +1,88 @@
-
-
-
 body{
 	text-align: left;
 	font-size: 14px;
-	font-family: Verdana;
-	background: #539bb1;
-}
+	font-family: Tahoma;
+	background: #d2fafb;
 
+}
 h1{
 	text-align: left;
-	font-size: 40px;
+	font-size: 18px;
 	font-family: Verdana;
-	color: rgb(10, 19, 146); 
+	color: rgb(35, 42, 134);
+	/*float:left;*/
 }
-
 h2{
 	text-align: left;
-	font-size: 20px;
-	font-family: Verdana;
-	color: rgb(232, 232, 241); 
+	font-size: 26px;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Inconsolata', monospace
+	letter-spacing: 2px;
+	color:202060; 
+	margin-left: 15px;
 }
-}
-.col{
-	height: 300px;
-}
-
-.columna-1{
-	background: #b366ff;
-	margin-bottom: 5%;
-	margin-right: 5%;
-	margin-left:5%;
+.datos{
+	margin-left:15px;
+	margin-right:40px;
 }
 
-.columna-2{
-	background: #9999ff;
-	margin-bottom: 5%;
-	float: left;
-	margin-left: 5%;
-	width: 45%;
-}
-
-.columna-3{
-	background: #ccccff;
-	margin-bottom: 5%;
-	width: 45%;
-	margin-right:5%;
-	float:right;
-}
-
-.columna-4{
-	background: #0066ff;
+.perfil{
+	position: relative;
 	float:left;
-	width: 18%;
-	margin-left: 5%;
+	width: 15%;
 }
-
-.columna-5{
-	background: #1a75ff;
-	float: left;
-	width: 18%;
+.contenido{
+	position: relative;
+	float:right;
+	width: 85%;
 }
-
-.columna-6{
-	background: #4d94ff;
-	float: left;
-	width: 18%;
+.descripcion{
+	padding: 1px;
+	margin: 2%;
 }
-
-.columna-7{
-	background: #99c2ff;
-	float: left;
-	width: 18%;
+.quiensoy{
+	padding: 5px;
+	margin-top:1%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:0%;
+	background-color:whitesmoke;
 }
-
-.columna-8{
-	background: #cce0ff;
-	float: right;
-	width: 18%;
-	margin-right: 5%;
+.formacion{
+	padding: 5px;
+	margin-top:1%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:0%;
+	background-color:whitesmoke;
+}
+.experiencia{
+	padding: 5px;
+	margin-top:1%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:0%;
+	background-color:whitesmoke;
+}
+.portfolio{
+	padding: 5px;
+	margin-top:1%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:0%;
+	background-color:whitesmoke;
+}
+.foto-personal{
+	width=150;
+	height=150;
+	margin: 15px;
+}
+p.boton{
+	width:100px;
+	margin:5px 30px;
+	padding:5px;
+	font-size:16px;
+	background-color:whitesmoke;
+	color:f1f0cf;
+	border:thin;
 }
